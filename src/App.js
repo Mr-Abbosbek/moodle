@@ -1,6 +1,5 @@
 import { Switch } from "react-router-dom";
 import { BrowserRouter, Route } from "react-router-dom";
-import Matlab from "./Matlab";
 import Evalutsiya from "./Evalutsiya";
 import LoyihaBosh from "./LoyihaBosh";
 import Mobil from "./Mobil";
@@ -14,7 +13,6 @@ export default function App() {
         <Route path="/ev" component={Evalutsiya} exact />
         <Route path="/lb" component={LoyihaBosh} exact />
         <Route path="/mo" component={Mobil} exact />
-        <Route path="/test" component={Matlab} exact />
       </Switch>
     </BrowserRouter>
   )

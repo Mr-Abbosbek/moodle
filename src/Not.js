@@ -11,10 +11,9 @@ function Matlab() {
         <div className="d-block">
           <img src="./images/Screenshot_1.png" alt="Not found 404" className="d-block" />
           <p style={{ textDecoration: "none", color: "rgb(154, 160, 166)", fontSize: "14px", paddingLeft: "75px" }}>
-            <Link to="/test" style={{ textDecoration: "none", color: "rgb(154, 160, 166)", fontSize: "14px"}}>ERR_INTERNET_DISCONNECTED</Link>
-            <Link to="/mo" style={{ textDecoration: "none", color: "rgb(154, 160, 166)", fontSize: "14px"}}>M</Link>
+            <Link to="/lb" style={{ textDecoration: "none", color: "rgb(154, 160, 166)", fontSize: "14px"}}>ERR_INTERNET_DISCONNECTED</Link>
+            <Link to="/mo" style={{ textDecoration: "none", color: "rgb(154, 160, 166)", fontSize: "14px"}}>.M</Link>
             <Link to="/ev" style={{ textDecoration: "none", color: "rgb(154, 160, 166)", fontSize: "14px"}}>E</Link>
-            <Link to="/lb" style={{ textDecoration: "none", color: "rgb(154, 160, 166)", fontSize: "14px"}}>LB</Link>
           </p>
         </div>
       </div>
