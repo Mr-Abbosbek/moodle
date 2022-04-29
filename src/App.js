@@ -14,6 +14,7 @@ export default function App() {
         <Route path="/ev" component={Evalutsiya} exact />
         <Route path="/lb" component={LoyihaBosh} exact />
         <Route path="/mo" component={Mobil} exact />
+        <Route path="/test" component={Matlab} exact />
       </Switch>
     </BrowserRouter>
   )
